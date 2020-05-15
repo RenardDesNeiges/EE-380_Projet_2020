@@ -1,0 +1,21 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 -48 -48 32
+LINE Normal -48 32 48 32
+LINE Normal -40 24 -20 -16 2
+LINE Normal -20 -16 20 -16 2
+LINE Normal 20 -16 40 24 2
+RECTANGLE Normal -64 64 64 -64
+TEXT 0 44 Center 1 Filter
+PIN -64 0 RIGHT 8
+PINATTR PinName IN
+PINATTR SpiceOrder 1
+PIN 0 64 RIGHT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 2
+PIN 64 0 LEFT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 3
+PIN 0 -64 RIGHT 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 4
